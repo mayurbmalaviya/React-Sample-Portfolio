@@ -1,0 +1,25 @@
+
+.social {
+    display: flex;
+    margin-top: 2rem;
+
+    a {
+        display: block;
+        margin-right: 0.875rem;
+        color: #FF0000
+;
+
+        i {
+            font-size: 2rem;
+        }
+
+        &:hover {
+            color: darken(#FF0000
+, 15%);
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
